@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <!-- PAGE INFO -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hamburgueria Mestre do Sabor</title>
+    <link rel="icon" href="assets/fotos/favicon.png">
+
+    <!-- Icones -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+    
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">
+          <img src="assets/fotos/Hamburgueria.svg" alt="Logomarca da Hamburgueria Mestre do Sabor" />
+        </a>
+        <!-- menu -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Cardápio</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <!-- /menu -->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HOME -->
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1586816001966-79b736744398?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+              alt="Hamburguer de qualidade da Hamburgueria Mestre do Sabor"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Quem experimenta afirma. </br> É o melhor!</h2>
+            <p>
+              Qualidade e cuidado são palavras que definem nosso comprometimento
+              com você.
+            </p>
+            <a class="button" href="#">Realizar pedido</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!-- ABOUT -->
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="assets/fotos/lanchonete.jpeg" width="500" height="60"
+              alt="Lindos Hamburgueres"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre nós</h2>
+            <p>
+              Com um novo conceito, nós da Hamburgueria Mestre do Sabor,
+              iniciamos o projeto no ano de 2020 em meio a pandemia. Com propósito de criar
+              algo diferente e que oferecesse inovação no meio alimentício.
+            </p>
+            <br />
+            <p>
+              Um sonho tanto para nós quanto para nossa cidade. Implantamos um delivery com sinônimo de velocidade e de qualidade como diferencial, para que você cliente tenha a opção, tanto do pedido a domicílio gratuito quanto no local, levando maior comodidade em um período onde ficar em casa se tornou necessário.
+            </p>
+            <br />
+            <p>
+              Hoje somos mais que um sonho, e buscamos cada vez mais atender todos clientes com as melhores opções, preço e qualidade em nossos produtos e atendimento.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- SERVICES -->
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Nossos Lanches</h2>
+            <p class="subtitle">
+              Com mais de 2 anos no mercado, a <strong>Hamburgueria Mestre do Sabor</strong> já
+              conquistou inúmeros clientes com seus lanches
+              exclusivos e deliciosos.
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-mestre"></i>
+              <h3 class="title">Misto Quente</h3>
+              <p>
+                Pão, Presuto e Queijo.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="price">R$5,00</span>
+              <a class="button-hamburguer" href="https://api.whatsapp.com/send?phone=+5538999690685&text=Oi! Gostaria de realizar um pedido do *Misto Quente*." target="_blank" >Realizar pedido</a>
+            </div>
+            <div class="card">
+              <i class="icon-mestre"></i>
+              <h3 class="title">Doguinho</h3>
+              <p>
+                Pão, Salsicha, Queijo, Tomate, Milho Verde, Batata e Maionese.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="price">R$7,00</span>
+              <a class="button-hamburguer" href="https://api.whatsapp.com/send?phone=+5538999690685&text=Oi! Gostaria de realizar um pedido do *Doguinho*." target="_blank">Realizar pedido</a>
+            </div>
+            <div class="card">
+              <i class="icon-mestre"></i>
+              <h3 class="title">Hamburguer</h3>
+              <p>
+                Pão, Hamburguer, Queijo, Milho Verde, Batata e Maionese.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="price">R$9,00</span>
+              <a class="button-hamburguer" href="https://api.whatsapp.com/send?phone=+5538999690685&text=Oi! Gostaria de realizar um pedido do *Hamburguer*." target="_blank">Realizar pedido</a>
+            </div>
+            <div class="card">
+              <i class="icon-mestre"></i>
+              <h3 class="title">Americano</h3>
+              <p>
+                Pão, Queijo, Presunto, Ovo, Alface, Tomate, Milho Verde, Batata e Maionese.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="price">R$10,00</span>
+              <a class="button-hamburguer" href="https://api.whatsapp.com/send?phone=+5538999690685&text=Oi! Gostaria de realizar um pedido do *Americano*." target="_blank">Realizar pedido</a>
+            </div>
+            <div class="card">
+              <i class="icon-mestre"></i>
+              <h3 class="title">Dogão</h3>
+              <p>
+                Pão, 2 Salsicha, Queijo, Alface, Tomate, Milho Verde, Batata e Maionese.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="price">R$8,00</span>
+              <a class="button-hamburguer" href="https://api.whatsapp.com/send?phone=+5538999690685&text=Oi! Gostaria de realizar um pedido do *Dogão*." target="_blank">Realizar pedido</a>
+            </div>
+            <div class="card">
+              <i class="icon-mestre"></i>
+              <h3 class="title">X-Salada</h3>
+              <p>
+                Pão, Hamburguer, Queijo, Alface, Tomate, Milho Verde, Batata e Maionese.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="price">R$10,00</span>
+              <a class="button-hamburguer" href="https://api.whatsapp.com/send?phone=+5538999690685&text=Oi! Gostaria de realizar um pedido do *X-Salada*." target="_blank">Realizar pedido</a>
+            </div>
+            <div class="card">
+              <i class="icon-mestre"></i>
+              <h3 class="title">Dogão com Ovo</h3>
+              <p>
+                Pão, 2 Salsicha, Queijo, Ovo, Alface, Tomate, Milho Verde, Batata e Maionese.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="price">R$10,00</span>
+              <a class="button-hamburguer" href="https://api.whatsapp.com/send?phone=+5538999690685&text=Oi! Gostaria de realizar um pedido do *Dogão com Ovo*." target="_blank">Realizar pedido</a>
+            </div>
+            <div class="card">
+              <i class="icon-mestre"></i>
+              <h3 class="title">X-Egg Burguer</h3>
+              <p>
+                Pão, Hamburguer, Queijo, Ovo, Alface, Tomate, Milho Verde, Batata e Maionese.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="price">R$12,00</span>
+              <a class="button-hamburguer" href="https://api.whatsapp.com/send?phone=+5538999690685&text=Oi! Gostaria de realizar um pedido do *X-Egg Burguer*." target="_blank">Realizar pedido</a>
+            </div>
+            <div class="card">
+              <i class="icon-mestre"></i>
+              <h3 class="title">Mata Fome</h3>
+              <p>
+                Pão, Hamburguer, Queijo, Presunto, Ovo, Alface, Tomate, Milho Verde, Batata e Maionese.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="price">R$13,00</span>
+              <a class="button-hamburguer" href="https://api.whatsapp.com/send?phone=+5538999690685&text=Oi! Gostaria de realizar um pedido do *Mata Fome*." target="_blank">Realizar pedido</a>
+            </div>
+            <div class="card">
+              <i class="icon-mestre"></i>
+              <h3 class="title">Pizzaburguer</h3>
+              <p>
+                Pão, Hamburguer, Frango Desfiado, Queijo, Calabresa, Alface, Milho Verde, Batata e Tomate.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="price">R$15,00</span>
+              <a class="button-hamburguer" href="https://api.whatsapp.com/send?phone=+5538999690685&text=Oi! Gostaria de realizar um pedido do *Pizzaburguer*." target="_blank">Realizar pedido</a>
+            </div>
+            <div class="card">
+              <i class="icon-mestre"></i>
+              <h3 class="title">Excalibur</h3>
+              <p>
+                Pão, Hamburguer, Queijo, Presunto, Salsicha, Ovo, Alface, Tomate, Milho Verde, Batata e Maionese.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="price">R$14,00</span>
+              <a class="button-hamburguer" href="https://api.whatsapp.com/send?phone=+5538999690685&text=Oi! Gostaria de realizar um pedido do *Excalibur*." target="_blank">Realizar pedido</a>
+            </div>
+            <div class="card">
+              <i class="icon-mestre"></i>
+              <h3 class="title">Dogão com Ovo e Bacon</h3>
+              <p>
+                Pão, 2 Salsicha, Queijo, Ovo, Bacon, Alface, Tomate, Milho Verde, Batata e Maionese.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="price">R$13,00</span>
+              <a class="button-hamburguer" href="https://api.whatsapp.com/send?phone=+5538999690685&text=Oi! Gostaria de realizar um pedido do *Dogão com Ovo e Bacon*." target="_blank">Realizar pedido</a>
+            </div>
+            <div class="card">
+              <i class="icon-mestre"></i>
+              <h3 class="title">Americado Bacon</h3>
+              <p>
+                Pão, Queijo, Presunto, Ovo, Bacon, Alface, Tomate, Milho Verde, Batata e Maionese.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="price">R$13,00</span>
+              <a class="button-hamburguer" href="https://api.whatsapp.com/send?phone=+5538999690685&text=Oi! Gostaria de realizar um pedido do *Americano Bacon*." target="_blank">Realizar pedido</a>
+            </div>
+            <div class="card">
+              <i class="icon-mestre"></i>
+              <h3 class="title">X-Bacon</h3>
+              <p>
+                Pão, Hamburguer, Queijo, Bacon, Alface, Tomate, Milho Verde, Batata e Maionese.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="price">R$15,00</span>
+              <a class="button-hamburguer" href="https://api.whatsapp.com/send?phone=+5538999690685&text=Oi! Gostaria de realizar um pedido do *X-Bacon*." target="_blank">Realizar pedido</a>
+            </div>
+            <div class="card">
+              <i class="icon-mestre"></i>
+              <h3 class="title">X-Egg Bacon</h3>
+              <p>
+                Pão, Hamburguer, Queijo, Bacon, Ovo, Alface, Tomate, Milho Verde, Batata e Maionese.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="price">R$16,00</span>
+              <a class="button-hamburguer" href="https://api.whatsapp.com/send?phone=+5538999690685&text=Oi! Gostaria de realizar um pedido do *X-Egg Bacon*." target="_blank">Realizar pedido</a>
+            </div>
+            <div class="card">
+              <i class="icon-mestre"></i>
+              <h3 class="title">Pizzaburguer Bacon</h3>
+              <p>
+                Pão, Hamburguer, Frango Desfiado,Queijo, Bacon, Milho Verde, Batata e Tomate.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="price">R$17,00</span>
+              <a class="button-hamburguer" href="https://api.whatsapp.com/send?phone=+5538999690685&text=Oi! Gostaria de realizar um pedido do *Pizzaburguer Bacon*." target="_blank">Realizar pedido</a>
+            </div>
+            <div class="card">
+              <i class="icon-mestre"></i>
+              <h3 class="title">Desafio</h3>
+              <p>
+                Pão, 1 Hamburguer Bovino, 1 Hamburguer de Frango, Queijo, Presunto, Salsicha, Ovo, Alface, Tomate, Milho Verde, Batata e Maionese.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="price">R$18,00</span>
+              <a class="button-hamburguer" href="https://api.whatsapp.com/send?phone=+5538999690685&text=Oi! Gostaria de realizar um pedido do *Desafio*." target="_blank">Realizar pedido</a>
+            </div>
+            <div class="card">
+              <i class="icon-mestre"></i>
+              <h3 class="title">A Moda da Casa</h3>
+              <p>
+                Pão, Hamburguer, Frango Desfiado, Bacon, Salsicha, Ovo, Queijo, Presunto, Alface, Tomate, Milho Verde, Batata e Maionese.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="price">R$20,00</span>
+              <a class="button-hamburguer" href="https://api.whatsapp.com/send?phone=+5538999690685&text=Oi! Gostaria de realizar um pedido do *A Moda da Casa*." target="_blank">Realizar pedido</a>
+            </div>
+            <div class="card">
+              <i class="icon-mestre"></i>
+              <h3 class="title">X-Tudo</h3>
+              <p>
+                Pão, 1 Hamburguer Bovino, 1 Hamburguer de Frango, Queijo, Presunto, Ovo, Calabresa, Salsicha, Bacon, Alface, Tomate, Milho Verde, Batata e Maionese.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="price">R$20,00</span>
+              <a class="button-hamburguer" href="https://api.whatsapp.com/send?phone=+5538999690685&text=Oi! Gostaria de realizar um pedido do *X-Tudo*." target="_blank">Realizar pedido</a>
+            </div>
+            <div class="card">
+              <i class="icon-mestre"></i>
+              <h3 class="title">X-Tudo Duplo</h3>
+              <p>
+                Pão, 2 Hamburguer Bovino, 1 Hamburguer de Frango, Queijo, Presunto, Ovo, Calabresa, Salsicha, Bacon, Alface, Tomate, Milho Verde, Batata e Maionese.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="price">R$22,00</span>
+              <a class="button-hamburguer" href="https://api.whatsapp.com/send?phone=+5538999690685&text=Oi! Gostaria de realizar um pedido do *X-Tudo Duplo*." target="_blank">Realizar pedido</a>
+            </div>
+            <div class="card">
+              <i class="icon-cup"></i>
+              <h3 class="title">Refrigerantes</h3>
+              <p>
+                Coca-Cola, Guaraná Antarctica, Fanta.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="price">A partir de R$3,50</span>
+              <a class="button-hamburguer" href="https://api.whatsapp.com/send?phone=+5538999690685&text=Oi! Gostaria de realizar um pedido de um *Refrigerante*..." target="_blank">Realizar pedido</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!-- TESTIMONIALS -->
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">
+              Depoimentos de quem já experimentou nossos lanches
+            </h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Qualidade é a palavra que define a Hamburgueria Mestre do Sabor. Lanches deliciosos e entrega muito rápida.
+                  </p>
+                  <cite>
+                    <img
+                      src="assets/fotos/cliente-1.jpg"
+                      alt="Foto de Lucas Queiroz"
+                    />
+                    Lucas Queiroz
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Ótimo atendimento e um Delivery muito bom. Sem contar a entrega que é gratuita aqui na cidade. Sensacional! 
+                  </p>
+                  <cite>
+                    <img
+                      src="assets/fotos/cliente-2.jpg"
+                      alt="Foto de João Pedro"
+                    />
+                    João Pedro
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Preços excelentes em todos os lanches. Muito satisfeito com o atendimento e a rapidez na entrega.
+                  </p>
+                  <cite>
+                    <img
+                      src="assets/fotos/cliente-3.jpg"
+                      alt="Foto de Anderson Santos"
+                    />
+                    Anderson Santos
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- CONTACT -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente!</h2>
+            <p>
+              Entre em contato com a Hamburgueria Mestre do Sabor, queremos tirar suas dúvidas,
+              ouvir suas críticas e sugestões.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5538999690685&text=Oi! Gostaria de realizar um pedido."
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i> Entrar em contato</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i> 38 99969-0685</li>
+              <li><i class="icon-map-pin"></i> Praça Cristo Rei, 257 </br> Centro - Montalvânia-MG</li>
+              <li><i class="icon-mail"></i> walasaguiar@yahoo.com.br</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+    </main>
+
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo logo-alt" href="#home">
+            <img src="assets/fotos/Hamburgueria.svg" alt="Logomarca da Hamburgueria Mestre do Sabor">
+          </a>
+          <p>©2021 Desenvolvido por <a href="https:www.infserver.com.br" target="_blank">Infserver Soluções em Tecnologia</a> .</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+
+        <div class="social grid">
+          <a href="https://www.instagram.com/hamburgueriamestre/" target="_blank">
+            <i class="icon-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/walasdaysa/" target="_blank">
+            <i class="icon-facebook"></i
+          ></a>
+          <a href="https://api.whatsapp.com/send?phone=+5538999690685&text=Oi! Gostaria de realizar um pedido." target="_blank"
+            ><i class="icon-whatsapp"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- main.js -->
+    <script src="main.js"></script>
+  </body>
+</html>
